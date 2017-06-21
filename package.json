@@ -1,7 +1,12 @@
 {
-  "name": "Example",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-router-flux",
+  "version": "4.0.0",
+  "description": "React Native Router using Flux architecture",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aksonov/react-native-router-flux"
+  },
+  "main": "index.js",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
@@ -13,8 +18,7 @@
     "react": "16.0.0-alpha.12",
     "react-native": "0.45.1",
     "react-native-button": "^2.0.0",
-    "react-navigation": "^1.0.0-beta.11",
-    "react-native-router-flux": "github:aksonov/react-native-router-flux#v4"
+    "react-navigation": "^1.0.0-beta.11"
   },
   "devDependencies": {
     "babel-jest": "20.0.3",
@@ -25,6 +29,7 @@
   },
   "jest": {
     "preset": "react-native",
+    "modulePathIgnorePatterns": ["<rootDir>/Example/"],
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native|react-navigation)"
     ],

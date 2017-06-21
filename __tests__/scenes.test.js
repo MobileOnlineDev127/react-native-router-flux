@@ -1,11 +1,10 @@
 import React from 'react';
 import {Text} from 'react-native';
-import Index from '../index.ios.js';
 import {when} from 'mobx';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
-import Router from '../Router';
+import Router from '../src/Router';
 class B extends React.Component {
   render(){
     return <Text>Hello world!</Text>;
