@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, TouchableOpacity} from 'react-native';
-import Router from './Router';
+import Router from 'react-native-router-flux';
 import Launch from './components/Launch';
 import Register from './components/Register';
 import Login from './components/Login';
